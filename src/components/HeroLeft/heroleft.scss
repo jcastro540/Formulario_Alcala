@@ -1,0 +1,37 @@
+.hero-img {
+    img {
+        width: 100%;
+        height: auto;
+        max-width: 880px;
+        max-height: 888px;
+    }
+}
+
+.description {
+    background: #292d2ecc;
+    position: absolute;
+    z-index: 1;
+    margin: -45% 0 0 0;
+    padding: 36px;
+    color: #ffffff;
+    vertical-align: bottom;
+    max-width: 952px;
+}
+
+@media (max-width: 768px) {
+    .hero-img {
+        img {
+            margin: 4% 0 0 0;
+        }
+    }
+
+    .description {
+        display: flex;
+        margin: 0% 0 0 0;
+        bottom: 0;
+        vertical-align: bottom;
+        padding: 15px;
+        flex-direction: column;
+    }
+
+}

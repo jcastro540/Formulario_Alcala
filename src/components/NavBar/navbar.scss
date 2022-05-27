@@ -1,0 +1,29 @@
+nav {
+    border-bottom: 1px solid #dee2e6;
+    
+    .logo {
+        width: 9.5rem;
+        margin: 10px 0 20px 0px;
+        display: block;
+    }
+    
+    .float-right {
+        float: right;
+    }
+    
+}
+
+
+@media (max-width: 768px) {
+    .logo {
+        width: 8.5rem!important;
+        margin: 10px 0 10px -6px!important;
+        display: block;
+    }
+
+    .float-right {
+        img {
+            max-height: 49px;
+        }
+    }
+}
